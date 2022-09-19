@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  background-color: rgba(51, 50, 50, 0.885);
+  color: white;
+  text-align: center;
+}
+
+#h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#p1 {
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#box {
+  width: 220px;
+  height: 75px;
+  border: 5px solid white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+#p2 {
+  margin-top: 1rem;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#input1 {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  border: none;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  width: 300px;
+  height: 50px;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box3 {
+  width: 250px;
+  height: 50px;
+  border: 2px solid white;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .responsive {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+  }
+  #input1,
+  .box2 {
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+  }
+  .box2 {
+    margin-top: 1rem;
+  }
+}
